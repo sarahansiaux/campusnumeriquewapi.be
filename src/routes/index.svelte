@@ -1,2 +1,17 @@
-<h1 class="text-blue-500">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Headers from '$lib/Headers.svelte'
+import {onMount} from 'svelte'
+    let articles = []
+    onMount(async ()=>{
+        const res = await fetch("https://baconipsum.com/api/?type=meat-and-filler")
+        articles  = await res.json()
+    })
+</script>
+
+<Headers/>
+
+{#each articles as article}
+    <p>{article}</p>
+{:else}
+    <p>Chargement</p>
+{/each}
