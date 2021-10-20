@@ -1,0 +1,12 @@
+<script>
+import Actualite from "./Actualite.svelte";
+
+    export let actualites = ["","",""]
+</script>
+<h2 id="actualites" class="text-4xl text-center my-20">Actualités</h2>
+<div class="flex flex-wrap max-w-6xl mx-auto w-full justify-evenly px-4">
+    {#each actualites as actualite}
+        <Actualite/>
+    {/each}
+</div>
+<a href="/actualites" class="border-rouge border-2 mt-10 text-rouge text-rouge w-60 text-center h-10 rounded-sm flex justify-center items-center mx-auto">Voir toutes les actualités</a>
