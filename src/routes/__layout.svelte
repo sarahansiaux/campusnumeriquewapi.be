@@ -5,6 +5,10 @@ import NavBar from "$lib/NavBar.svelte";
   import "../app.css";
 </script>
 
-<NavBar/>
-<slot />
-<Footer/>
+<main class="flex flex-col min-h-screen">
+  <NavBar/>
+  <div class="">
+    <slot />
+  </div>
+  <Footer/>
+</main>

@@ -4,9 +4,9 @@ import Actualite from "./Actualite.svelte";
     export let actualites = ["","",""]
 </script>
 <h2 id="actualites" class="text-4xl text-center my-20">Actualités</h2>
-<div class="flex flex-wrap max-w-6xl mx-auto w-full justify-evenly px-4">
+<div class="flex flex-wrap max-w-6xl mx-auto w-full justify-evenly px-4 mb-10">
     {#each actualites as actualite}
         <Actualite/>
     {/each}
 </div>
-<a href="/actualites" class="border-rouge border-2 mt-10 text-rouge text-rouge w-60 text-center h-10 rounded-sm flex justify-center items-center mx-auto">Voir toutes les actualités</a>
+<a href="/actualites" class="border-rouge hover:border-rouge-dark transition duration-500 ease-in-out hover:text-white hover:bg-rouge-dark border-2 mt-10 text-rouge text-rouge w-60 text-center h-10 rounded-sm flex justify-center items-center mx-auto">Voir toutes les actualités</a>

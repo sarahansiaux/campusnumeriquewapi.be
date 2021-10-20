@@ -5,7 +5,10 @@ const config = {
   theme: {
     extend: {
       colors:{
-        rouge:'#E01764'
+        rouge:{
+          DEFAULT:'#E01764',
+          dark:"#8E0B40"
+        }
       }
     },
   },
