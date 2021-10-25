@@ -1,4 +1,6 @@
 <script>
+import External from "./icons/External.svelte"
+
     export let titre = "Sample title of an event happening the 3rd of july"
     export let date = "05/05/2005"
     export let lien = "https://example.com"
@@ -9,5 +11,5 @@
     <img src="{image}" alt="">
     <h3 class="font-bold text-sm m-2">{titre}</h3>
     <p class="text-gray-400 m-2 text-xs">{date}</p>
-    <a target="_blank" class="flex justify-end text-rouge m-2 text-sm" href="{lien}">Voir l'évènement 🔗</a>
+    <a target="_blank" class="flex justify-end text-rouge m-2 text-sm hover:text-rouge-dark" href="{lien}"><span class="mr-2">Voir l'évènement</span> <External size="20"/> </a>
 </div>
