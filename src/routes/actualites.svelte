@@ -38,7 +38,7 @@ const removeResearch = () =>{
 {#if searchRequest}
 <p class="text-center mb-10">Recherche: {searchRequest} <span class="cursor-pointer" on:click={()=>{removeResearch()}}>❌</span> </p>
 {/if}
-<section class="flex max-w-5xl justify-between gap-4 flex-wrap mx-auto w-full px-2">
+<section class="flex max-w-5xl md:justify-between justify-center gap-4 flex-wrap mx-auto w-full px-2">
     {#each articles as article}
         <Actualite titre={article.titre} lien={article.lien} date={article.date} image={article.image.path}/>
     {/each}
