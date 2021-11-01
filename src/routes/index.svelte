@@ -34,7 +34,6 @@ import {cms,token} from "$lib/cms.js"
     })
     partenaires = await resPartenaires.json()
     partenaires = partenaires.entries
-    console.log(partenaires)
 })
 </script>
 
