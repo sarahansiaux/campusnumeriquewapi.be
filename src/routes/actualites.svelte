@@ -12,7 +12,7 @@ let loaded = false
 $: if($search.length > 0){
     articles = []
     articlesCollection.filter(e=>{
-        if(e.titre.toLowerCase().includes($search)){
+        if(e.titre.toLowerCase().includes($search.toLowerCase())){
             articles.push(e)
         }
     })
