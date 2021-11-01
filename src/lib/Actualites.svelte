@@ -5,7 +5,7 @@ import Actualite from "./Actualite.svelte";
 </script>
 <h2 id="actualites" class="text-4xl text-center mt-20">Actualités</h2>
 <hr class="border-none bg-rouge h-1 w-24 mx-auto my-10">
-<div class="flex md:flex-nowrap flex-wrap max-w-6xl mx-auto w-full md:justify-center justify-center gap-4 px-4 mb-10">
+<div class="flex md:flex-nowrap flex-wrap max-w-6xl mx-auto w-full justify-evenly gap-4 px-4 mb-10">
     {#each actualites as actualite}
         <Actualite titre={actualite.titre} lien={actualite.lien} date={actualite.date} image={actualite.image.path}/>
     {/each}

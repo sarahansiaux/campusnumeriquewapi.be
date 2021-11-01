@@ -6,7 +6,7 @@ import External from "./icons/External.svelte"
     export let image = "https://picsum.photos/1000/600"
 </script>
 
-<div class="border w-80 w-60 mb-4">
+<div class="border md:w-80 mb-4">
     <div class="h-40" style={`background-image:url(${image});background-position:center;background-color:gray;background-size:cover;`}></div>
     <h3 class="font-bold text-sm m-2">{titre}</h3>
     <p class="text-gray-400 m-2 text-xs uppercase">{date}</p>
