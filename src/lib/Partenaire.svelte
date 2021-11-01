@@ -9,11 +9,13 @@
     const linkStyle = `transition duration-200 ease-in-out border border-rouge p-1 flex w-10 h-10 justify-center hover:bg-rouge hover:text-white text-rouge items-center`
     
 </script>
-<div class="md:w-80 border mb-4 flex flex-col justify-between p-2">
-    <img src="{cms}{partenaire.logo.path}" class="w-full" alt="">
+<div class="md:w-80 border mb-4 flex flex-col justify-between px-2 py-8">
+    <div>
+        <img src="{cms}{partenaire.logo.path}" class="h-20 mx-auto" alt="">
+    </div>
     <h3 class="mt-4 text-sm font-bold">{partenaire.nom}</h3>
     <p class="my-4 px-1 text-xs">{partenaire.desc}</p>
-    <div class="m-4 flex gap-1 justify-center">
+    <div class="mt-4 flex gap-1 justify-center">
         {#if partenaire.facebook}
             <a target="_blank" class="{linkStyle}" href="{partenaire.facebook}"><Facebook size="15"/></a>
         {/if}

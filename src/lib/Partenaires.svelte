@@ -8,7 +8,6 @@ import {cms} from '$lib/cms.js'
     <hr class="border-none bg-rouge h-1 w-24 mx-auto my-10">
     <div class="flex flex-wrap justify-evenly gap-4">
         {#each partenaires as partenaire}
-            <!-- <Partenaire titre="{partenaire.titre}" description="{partenaire.description}" image="{partenaire.image}" liens={partenaire.liens}/> -->
             <Partenaire partenaire={partenaire}/>
         {/each}
     </div>
