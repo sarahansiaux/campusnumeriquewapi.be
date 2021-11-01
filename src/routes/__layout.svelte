@@ -16,7 +16,7 @@ export let page
 </script>
 
 <main class="flex flex-col min-h-screen">
-  <NavBar on:search={()=>{}} currentPage="{page}"/>
+  <NavBar currentPage="{page}"/>
   <div class="">
     <slot />
   </div>
