@@ -9,7 +9,7 @@
     const linkStyle = `transition duration-200 ease-in-out border border-rouge p-1 flex w-10 h-10 justify-center hover:bg-rouge hover:text-white text-rouge items-center`
     
 </script>
-<div class="md:w-80 border mb-4 flex flex-col justify-between px-2 py-8">
+<div class="w-80 border mb-4 flex flex-col justify-between px-2 py-8">
     <div>
         <img src="{cms}{partenaire.logo.path}" class="h-20 mx-auto" alt="">
     </div>
