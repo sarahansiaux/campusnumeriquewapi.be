@@ -17,19 +17,19 @@
     <p class="my-4 px-1 text-xs">{partenaire.desc}</p>
     <div class="mt-4 flex gap-1 justify-center">
         {#if partenaire.facebook}
-            <a target="_blank" class="{linkStyle}" href="{partenaire.facebook}"><Facebook size="15"/></a>
+            <a rel="noreferrer" title="Facebook" target="_blank" class="{linkStyle}" href="{partenaire.facebook}"><Facebook size="15"/></a>
         {/if}
         {#if partenaire.instagram}
-            <a target="_blank" class="{linkStyle}"  href="{partenaire.instagram}"><Instagram size="15"/></a>
+            <a rel="noreferrer" title="Instagram" target="_blank" class="{linkStyle}"  href="{partenaire.instagram}"><Instagram size="15"/></a>
         {/if}
         {#if partenaire.linkedin}
-            <a target="_blank" class="{linkStyle}"  href="{partenaire.linkedin}"><Linkedin size="15"/></a>
+            <a rel="noreferrer" title="Linkedin" target="_blank" class="{linkStyle}"  href="{partenaire.linkedin}"><Linkedin size="15"/></a>
         {/if}
         {#if partenaire.www}
-            <a target="_blank" class="{linkStyle}"  href="{partenaire.www}"><Website size="15"/></a>
+            <a rel="noreferrer" title="Site internet" target="_blank" class="{linkStyle}"  href="{partenaire.www}"><Website size="15"/></a>
         {/if}
         {#if partenaire.youtube}
-            <a target="_blank" class="{linkStyle}"  href="{partenaire.youtube}"><Youtube size="15"/></a>
+            <a rel="noreferrer" title="Youtube" target="_blank" class="{linkStyle}"  href="{partenaire.youtube}"><Youtube size="15"/></a>
         {/if}
     </div>
 </div>

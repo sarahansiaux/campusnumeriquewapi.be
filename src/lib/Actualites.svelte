@@ -10,4 +10,4 @@ import Actualite from "./Actualite.svelte";
         <Actualite titre={actualite.titre} lien={actualite.lien} date={actualite.date} image={actualite.image.path}/>
     {/each}
 </div>
-<a href="/actualites" class="border-rouge hover:border-rouge-dark transition duration-500 ease-in-out hover:text-white hover:bg-rouge-dark border-2 mt-10 text-rouge text-rouge w-60 text-center h-10 rounded-sm flex justify-center items-center mx-auto">Voir toutes les actualités</a>
+<a href="/actualites" rel="noreferrer" class="border-rouge hover:border-rouge-dark transition duration-500 ease-in-out hover:text-white hover:bg-rouge-dark border-2 mt-10 text-rouge text-rouge w-60 text-center h-10 rounded-sm flex justify-center items-center mx-auto">Voir toutes les actualités</a>
