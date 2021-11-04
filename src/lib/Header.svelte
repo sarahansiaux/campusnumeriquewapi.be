@@ -26,6 +26,6 @@ let sliderImages = ['caroussel1.webp','caroussel2.webp','caroussel3.webp']
             <div on:click={()=>{sliderImage = 1; }} class="w-4 h-4 cursor-pointer rounded-full border-white border {sliderImage == 1 ? 'bg-white' : ''}"></div>
             <div on:click={()=>{sliderImage = 2; }} class="w-4 h-4 cursor-pointer rounded-full border-white border {sliderImage == 2 ? 'bg-white' : ''}"></div>
         </div>
-        <img class="absolute bg-white w-80 bottom-0 right-4" src="/img/enmieux.png" alt="En Mieux">
+        <img class="absolute bg-white w-80 bottom-0 right-4 p-2" src="/img/enmieux.png" alt="En Mieux">
     </div>
 </header>

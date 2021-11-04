@@ -50,7 +50,7 @@ $: if(screen <= 767){
 <nav class="bg-white flex justify-between p-2 flex-wrap md:pb-2">
     <div class="md:w-40 w-20">
         <img on:click={()=>{goto("/")}} class="cursor-pointer" src="/img/logo.png" alt="">
-    </div>{screen}
+    </div>
     {#if screen < 767}
         <div class="text-rouge-dark" on:click={()=>{showMenu = !showMenu}}>
             <Hamburger open={showMenu} size="40"/>
