@@ -1,5 +1,6 @@
-<footer class="mt-20 text-center mt-auto">
-    <p>Condition générales d’utilisation - Mentions légales - Charte de protection des données - Charte lutte contre le dumping social</p>
+<footer class="text-center mt-auto">
+    <p>Condition générales d’utilisation - Mentions légales - Charte de protection des données</p>
+    <p>Réalisé par les teuteus d'e-business</p>
 </footer>
 <style>
     footer{
