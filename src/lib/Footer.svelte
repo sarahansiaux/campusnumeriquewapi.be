@@ -1,4 +1,4 @@
-<footer class="text-center mt-auto">
+<footer class="text-center mt-auto py-10">
     <p>Condition générales d’utilisation - Mentions légales - Charte de protection des données</p>
     <p>Réalisé par les teuteus d'e-business</p>
 </footer>

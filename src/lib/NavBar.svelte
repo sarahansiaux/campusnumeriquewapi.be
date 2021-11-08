@@ -63,7 +63,7 @@ $: if(screen <= 767){
                 <Search on:click={()=>{toggleSearch()}} size="20"/>
             </li>
         {#each liens as lien}
-            <li><a class="{lien.href == currentPage ? 'font-bold' : ''}" href="{lien.href}">{lien.text}</a></li>
+            <li><a class="{lien.href == currentPage ? 'font-bold' : ''} md:mx-4" href="{lien.href}">{lien.text}</a></li>
         {/each}
     </ul>
     {/if}
