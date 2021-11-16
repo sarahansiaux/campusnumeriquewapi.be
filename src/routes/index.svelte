@@ -41,6 +41,6 @@ import {cms,token} from "$lib/cms.js"
 <Header/>
 <About/>
 <Partenaires partenaires={partenaires}/>
-<Map/>
-<Actualites actualites={articles}/>
 <Newsletter/>
+<Actualites actualites={articles}/>
+<Map/>
