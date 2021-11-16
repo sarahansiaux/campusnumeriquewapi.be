@@ -7,7 +7,6 @@
     import {cms} from '$lib/cms.js'
     export let partenaire
     const linkStyle = `transition duration-200 ease-in-out border border-rouge p-1 flex w-10 h-10 justify-center hover:bg-rouge hover:text-white text-rouge items-center`
-    console.log(partenaire)
 </script>
 <div class="w-80 border mb-4 flex flex-col justify-between px-2 py-8">
     <div>
