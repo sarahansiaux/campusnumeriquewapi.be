@@ -6,3 +6,10 @@
 body{
     scroll-behavior:smooth;
 }
+
+article h1{
+    @apply font-bold text-2xl my-2;
+}
+article h2{
+    @apply font-bold text-xl my-2;
+}
