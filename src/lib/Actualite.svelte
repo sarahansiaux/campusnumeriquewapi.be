@@ -5,7 +5,6 @@ import {cms} from '$lib/cms.js'
     export let date = "Le 05 Octobre 2021"
     export let lien = "https://example.com"
     export let image = "https://picsum.photos/1000/600"
-    console.log(image)
 </script>
 
 <div class="border w-80 mb-4">
