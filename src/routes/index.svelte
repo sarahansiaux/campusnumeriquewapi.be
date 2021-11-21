@@ -37,6 +37,11 @@ import {cms,token} from "$lib/cms.js"
 })
 </script>
 
+<svelte:head>
+    <link rel="prefetch" href="/img/img_2.webp">
+    <link rel="prefetch" href="/img/img_3.webp">
+</svelte:head>
+
 <Headers/>
 <Header/>
 <About/>

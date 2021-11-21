@@ -1,7 +1,7 @@
 <script>
 import { onMount } from "svelte";
 
-let sliderImages = ['caroussel1.webp','caroussel2.webp','caroussel3.webp']
+let sliderImages = ['img_1.webp','img_2.webp','img_3.webp']
     let sliderImage = 0
     onMount(()=>{
         const sliderTimer = setInterval(()=>{
@@ -14,6 +14,8 @@ let sliderImages = ['caroussel1.webp','caroussel2.webp','caroussel3.webp']
         },10000)
     })
 </script>
+
+
 
 <header style="background-image:url(/img/{sliderImages[sliderImage]});background-position:center;height:80vh;background-size:cover;background-color:rgba(0,0,0,0);">
     <div class="h-full bg-black bg-opacity-30">
