@@ -9,7 +9,7 @@
     const linkStyle = `transition duration-200 ease-in-out border border-rouge p-1 flex w-10 h-10 justify-center hover:bg-rouge hover:text-white text-rouge items-center`
 </script>
 <div class="w-80 border mb-4 flex flex-col justify-between px-2 py-8">
-    <a href={partenaire.www ? partenaire.www : '#'}>
+    <a target="_blank" href={partenaire.www ? partenaire.www : '#'}>
         <img src="{cms}{partenaire.logo.path}" class="h-20 mx-auto" alt="">
     </a>
     <h3 class="mt-4 text-sm font-bold">{partenaire.nom}</h3>

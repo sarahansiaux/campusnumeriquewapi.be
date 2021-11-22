@@ -29,7 +29,7 @@ let sliderImages = ['img_1.webp','img_2.webp','img_3.webp']
                 <div on:click={()=>{sliderImage = 1; }} class="w-4 h-4 cursor-pointer rounded-full border-white border {sliderImage == 1 ? 'bg-white' : ''}"></div>
                 <div on:click={()=>{sliderImage = 2; }} class="w-4 h-4 cursor-pointer rounded-full border-white border {sliderImage == 2 ? 'bg-white' : ''}"></div>
             </div>
-            <a href="http://enmieux.be/"><img class="absolute bg-white w-80 bottom-0 right-4 p-2" src="/img/enmieux.png" alt="En Mieux"></a>
+            <a target="_blank" href="http://enmieux.be/"><img class="absolute bg-white w-80 bottom-0 right-4 p-2" src="/img/enmieux.png" alt="En Mieux"></a>
             
         </div>
     </div>
