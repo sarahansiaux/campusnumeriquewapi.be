@@ -1,7 +1,7 @@
 <script>
 import { onMount } from "svelte";
 
-let sliderImages = ['img_1.webp','img_2.webp','img_3.webp']
+let sliderImages = ['img_1b.jpg','img_2.webp','img_3.webp']
     let sliderImage = 0
     onMount(()=>{
         const sliderTimer = setInterval(()=>{
